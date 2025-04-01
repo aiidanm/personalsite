@@ -17,6 +17,15 @@ function App() {
     <div className="App">
       <Header title="AIDAN MURRAY" />
 
+      <h3 className="personal-bio">
+        Software developer with freelance paid experiance and a healthy
+        obsession with personal projects. Expertise in react, node and
+        Javascript. Fast learner of languauges and concepts as projects demand.{" "}
+      </h3>
+      <h3 className="second-intro">
+        Currently looking for full time work{" "}
+      </h3>
+
       <Navbar
         tabs={Object.keys(projectsData)}
         activeTab={activeTab}

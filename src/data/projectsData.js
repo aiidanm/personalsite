@@ -49,28 +49,15 @@ export const projectsData = {
     {
       title: "5-a-side app",
       image: "https://via.placeholder.com/200?text=Project+A",
-      description: "Some info on Project A...",
-      tech: [],
+      description: "Easily my largest project, this app was made to track players, goals, assists, wins and other football stats for my friends football games. This involved creating a SQL database with 6 tables and additional relational tables. The backend server contained SQL queries stretching across all of these using CASE and other very high level SQL queries. The App is still being worked on, and when possible a demo version will be available to view on here.",
+      tech: ["React", "SQL", "Heroku", "Node.js"],
     },
     {
       title: "Festeval",
       image: Festeval,
-      description: "Some info on Project B...",
-      tech: [],
+      description:
+        "This app allows you to link your spotify account, and find artists you have liked songs from / have in a playlist who are playing. It will then show you the days and times they are playing along with the stage. It will also helpfully highlight clashes you have in red.",
+      tech: ["React", "Node.js", "Spotify API", "Webkit Cookies", "0Auth"],
     },
-  ],
-  Photography: [
-    {
-      title: "Project X",
-      image: "https://via.placeholder.com/200?text=Photography+X",
-      description: "Some info on Photography Project X...",
-      tech: [],
-    },
-    {
-      title: "Project Y",
-      image: "https://via.placeholder.com/200?text=Photography+Y",
-      description: "Some info on Photography Project Y...",
-      tech: [],
-    },
-  ],
+  ]
 };
