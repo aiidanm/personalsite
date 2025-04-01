@@ -1,6 +1,6 @@
 import SoundPound from "../SoundPoundlogo.png";
 import Nathan from "../NathanGMurray.png";
-import Festeval from "../Festeval.png"
+import Festeval from "../Festeval.png";
 
 export const projectsData = {
   "Freelance Projects": [
