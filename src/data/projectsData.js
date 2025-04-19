@@ -55,6 +55,7 @@ export const projectsData = {
     {
       title: "Festeval",
       image: Festeval,
+      link: "https://www.festeval.co.uk",
       description:
         "This app allows you to link your spotify account, and find artists you have liked songs from / have in a playlist who are playing. It will then show you the days and times they are playing along with the stage. It will also helpfully highlight clashes you have in red.",
       tech: ["React", "Node.js", "Spotify API", "Webkit Cookies", "0Auth"],
